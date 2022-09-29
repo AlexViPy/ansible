@@ -1,6 +1,4 @@
----
-- name: preconfig
-  hosts: localhost
+- hosts: airflow
   tasks:
     - name: Install docker
       block:
