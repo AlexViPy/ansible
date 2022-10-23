@@ -1,5 +1,5 @@
 ---
-    - hosts: airflow
+    - hosts: local
       tasks:
           - name: Install docker
             block:
